@@ -1,0 +1,26 @@
+/* Estilos da barra de rolagem */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #232323; /* Cor da barra de rolagem e do fundo */
+  }
+  
+  /* Cor da barra de rolagem quando estiver passando o mouse sobre ela */
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #232323;
+  }
+  
+  /* Estilo da barra de rolagem */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem vertical */
+  }
+  
+  /* Estilo do botão de rolagem (seta) */
+  .custom-scrollbar::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  /* Estilo da barra de rolagem (track) */
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #111; /* Cor de fundo do track */
+  }
+  
