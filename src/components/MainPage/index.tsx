@@ -133,7 +133,7 @@ export const MainPage = () => {
   ]
 
   return (
-    <main className="flex-1 m-1 rounded-lg bg-gray-default p-2 pl-5 pr-5 flex-grow overflow-auto max-h-[36.8rem] custom-scrollbar">
+    <main className="flex-1 m-1 rounded-lg bg-gray-default p-2 pl-5 pr-5 overflow-auto max-h-[89vh] custom-scrollbar">
       <header className="flex justify-between w-full">
         <div className="flex text-white gap-2">
           <div className="p-1 bg-zinc-800 rounded-full">
