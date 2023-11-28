@@ -1,27 +1,3 @@
-# React + TypeScript + Vite
+Descrição: Este projeto é um clone da interface do usuário do Spotify, desenvolvido em React.js e estilizado com Tailwind CSS. Embora não inclua funcionalidades avançadas, é uma demonstração prática de como criar uma interface atraente usando tecnologias modernas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Instruções de Uso: Clone este repositório: git clone [https://github.com/seu-usuario/clone-spotify.git](https://github.com/brunopp00/clone-spotify.git) Navegue até o diretório do projeto: cd clone-spotify Instale as dependências: npm install Execute o projeto: npm start Explore o código-fonte e experimente modificar a interface para praticar suas habilidades em React.js e Tailwind CSS.
